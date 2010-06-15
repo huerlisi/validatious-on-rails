@@ -4,6 +4,7 @@ require File.join(File.dirname(__FILE__), *%w[validatious-on-rails model_validat
 require File.join(File.dirname(__FILE__), *%w[validatious-on-rails rails])
 require File.join(File.dirname(__FILE__), *%w[validatious-on-rails helpers])
 require File.join(File.dirname(__FILE__), *%w[validatious-on-rails controller])
+require File.join(File.dirname(__FILE__), *%w[validatious-on-rails railtie]) if defined?(::Rails::Railtie)
 
 module ValidatiousOnRails # :nodoc:
 
